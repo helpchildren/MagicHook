@@ -4,13 +4,14 @@ buildscript {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven {//本地Maven仓库地址
-            url uri('./magichook/plugin')
-        }
+//        maven {//本地Maven仓库地址
+//            url uri('./magichook/plugin')
+//        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.1"
-        classpath 'com.sesxh.android.plugins:magichook:1.0.1'
+//        classpath 'com.sesxh.android.plugins:magichook:1.0.1'
+        classpath 'com.github.helpchildren:MagicHook:v1.0.0'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -22,9 +23,9 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" }
-        maven {//本地Maven仓库地址
-            url uri('./magichook/plugin')
-        }
+//        maven {//本地Maven仓库地址
+//            url uri('./magichook/plugin')
+//        }
     }
 }
 

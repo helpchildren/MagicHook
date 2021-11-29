@@ -50,7 +50,8 @@ dependencies {
     implementation 'com.jakewharton:butterknife:10.2.3'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6'//RecyclerView Adapter
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
-    implementation project(path: ':magicplugin')
+//    implementation project(path: ':magicplugin')
+    implementation 'com.github.helpchildren:MagicHook:v1.0.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
